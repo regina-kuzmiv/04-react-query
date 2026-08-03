@@ -4,9 +4,13 @@ import type { Movie } from "../types/movie";
 interface MoviesResponse {
   results: Movie[];
   page: number;
+  total_pages: number;
 }
 
-export default async function fetchMovies(query: string): Promise<Movie[]> {
+export default async function fetchMovies(
+  query: string,
+  page: number
+): Promise<MoviesResponse> {
   const response = await axios.get<MoviesResponse>(
     "https://api.themoviedb.org/3/search/movie",
     {
@@ -20,5 +24,5 @@ export default async function fetchMovies(query: string): Promise<Movie[]> {
     }
   );
 
-  return response.data.results;
+  return response.data;
 }
