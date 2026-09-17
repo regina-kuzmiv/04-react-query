@@ -8,18 +8,31 @@ The application uses the TMDB API to fetch movie data and displays search result
 
 ## ✨ Features
 🔎 Search movies by keyword
+
 🎞️ Display movie posters and titles
+
 📄 Paginated search results
+
 ⏳ Loading state while fetching data
+
 ⚠️ Error handling for failed HTTP requests
+
 🔔 User notifications with React Hot Toast
+
 🪟 Movie details modal
+
 ⌨️ Close modal with the ESC key
+
 🖱️ Close modal by clicking outside it
+
 🔒 Prevent page scrolling while the modal is open
+
 🔄 Clear previous search results when starting a new search
+
 📱 Responsive layout
+
 🔐 API authentication using an environment variable
+
 ⚡ Server-state management and caching with TanStack Query
 
 ## 🛠️ Technologies
