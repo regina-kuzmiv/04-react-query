@@ -3,7 +3,7 @@ A movie search application built with React and TypeScript using the TMDB API.
 The application allows users to search for movies by keyword, browse paginated results, and view detailed information about a selected movie.
 
 ## 🔗 Links
-[Live Demo:](https://04-react-query-delta-peach.vercel.app/)
+[Live Demo](https://04-react-query-delta-peach.vercel.app/)
 
 ## 📌 About the Project
 This project was created as part of a React course to practice working with REST APIs, asynchronous requests, state management, pagination, forms, modals, and TypeScript.
