@@ -1,4 +1,4 @@
-## 🎬 Movie Search
+# 🎬 Movie Search
 A movie search application built with React and TypeScript using the TMDB API.
 The application allows users to search for movies by keyword, browse paginated results, and view detailed information about a selected movie.
 
