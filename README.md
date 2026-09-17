@@ -57,14 +57,19 @@ Movie images are loaded from the TMDB image service.
 
 ## 🧩 Main Components
 *SearchBar*
+
 Provides the search form and passes the entered query to the parent component.
 The form uses React Form Actions and validates that the search field is not empty.
+
 *MovieGrid*
+
 Displays the list of movies returned by the API. Each movie card contains:
 - movie poster
 - movie title
 Clicking a movie opens the details modal.
+
 *MovieModal*
+
 Displays detailed information about the selected movie:
 poster/backdrop
 title
@@ -75,9 +80,13 @@ The modal is rendered using createPortal and supports closing with:
 close button
 ESC key
 click outside the modal
+
 *Loader*
+
 Displays a loading message while the movie request is in progress.
+
 *ErrorMessage*
+
 Displays an error message when the API request fails.
 
 ## 📄 Pagination
